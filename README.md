@@ -1,3 +1,8 @@
+Cr-Regions-Info
+===================
+
+Вывод индивидуального меню, и рекламных блоков для выбранных регионов, выбор осуществляется вручную.
+
 Список шорткодов
 ___________
 
@@ -103,3 +108,21 @@ $crop - обрезка (true,false)
 $class - дополнительный класс ( параметр необязательный )
 Пример использования <?php echo get_cr_region_banner('banner_1',150, 220, true ); ?>
 ```
+
+
+Так же вывод объектов для выбора можно осуществить с помощю HTML кода, вставив внутрь любое содержимое.
+
+В необходимом месте добавляем такой код.
+```
+<div id="cr-region-selectred">
+        <span data-value="astana"><img width='80px' src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/New_coat_of_arms_of_Astana.svg/150px-New_coat_of_arms_of_Astana.svg.png" alt=""></span>
+        <span data-value="almaty"><img width='80px' src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Coat_of_arms_of_Almaty.svg/90px-Coat_of_arms_of_Almaty.svg.png" alt=""></span>
+ </div>
+``` 
+
+У span атрибут data-value должен совпадать со слагом города
+внутри span может быть любое содержимое, для примера поставил гербы астаны и алма-аты из википедии, но можно и текст и все что угодно.
+
+#### v- 1.04
+* Добавлен редирект на главную страницу при выборе региона.
+
