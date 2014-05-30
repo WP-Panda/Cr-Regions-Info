@@ -1,0 +1,20 @@
+.cr-columns{
+	margin:0 10px;
+	float: left;
+}
+.cr-columns.first{
+	margin-left:0;
+}
+.cr-columns.last{
+	margin-right:0;
+}
+
+.cr_clear{
+		clear:both;
+}
+
+.cr-menu-span {
+    float: left;
+}
+.cr-menu-li {
+    list-style: none;

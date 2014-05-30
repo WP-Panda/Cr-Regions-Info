@@ -1,0 +1,50 @@
+@import "http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700&subset=latin,cyrillic,cyrillic-ext,latin-ext";
+.wrap.cr-region {
+    margin: 0;
+}
+.wrap.cr-region > * {
+    font-family: 'Open Sans Condensed',sans-serif;
+}
+.firsten {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin-bottom: 0;
+    margin-left: -20px;
+    margin-top: 0;
+    padding: 5px 20px;
+}
+h3.selecten {
+    background-color: #E86A32;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-left: -20px;
+    margin-top: 0;
+    padding: 10px 20px;
+}
+.wrap.cr-region h4 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.short {
+    background: none repeat scroll 0 0 #EEEEEE;
+    display: inline-block;
+    font-size: 17px;
+    margin-bottom: 5px;
+    padding: 5px 15px;
+}
+.wrap.cr-region p {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #34495E;
+}
+.wrap.cr-region .dashicons {
+    color: #1ABC9C;
+    font-size: 0.7rem;
+    height: 1rem;
+    margin-right: 0.3rem;
+    margin-top: 0.3rem;
+    padding-top: 0;
+    width: 1rem;
+}
