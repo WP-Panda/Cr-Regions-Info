@@ -1,23 +1,26 @@
 Список шорткодов
-1. Шорткоды для создания меню
+___________
 
-    Установка маркированного списка
+#### Шорткоды для создания меню
 
-    [cr_ul][/cr_ul]
-    Параметров не имеет
-    Возвращает - <ul></ul>
-    Элемент Списка
-    [cr_li icon={}][/cr_li]
-    Параметры:
-        Icon - url иконки
-    Возвращает - <li class='cr-menu-li'><span class='cr-menu-span'><img src="{url иконки}"></span></li>
-    Колонки
+*Установка маркированного списка
 
-    [cr_column width={} position={}][/cr_column]
-    Параметры:
-        width - ширина колонки (по умолчанию 30%)
-        position - добавляет классы для первой и последней колонки first - первая, last - последняя
-    Возвращает - <div class='cr-columns {position}' style='width:{width}' ></div>
+` [cr_ul][/cr_ul]
+Параметров не имеет
+Возвращает - <ul></ul>
+Элемент Списка
+[cr_li icon={}][/cr_li]
+Параметры:
+    Icon - url иконки
+Возвращает - <li class='cr-menu-li'><span class='cr-menu-span'><img src="{url иконки}"></span></li>`
+    
+*Колонки
+
+` [cr_column width={} position={}][/cr_column]
+Параметры:
+    width - ширина колонки (по умолчанию 30%)
+    position - добавляет классы для первой и последней колонки first - первая, last - последняя
+Возвращает - <div class='cr-columns {position}' style='width:{width}' ></div>`
 
     Очистка
 
