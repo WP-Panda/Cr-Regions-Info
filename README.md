@@ -25,34 +25,34 @@ ___________
 Возвращает - <div class='cr-columns {position}' style='width:{width}' ></div>
 ```
 
-    Очистка
-
-    [cr_clear]
-    Параметров не имеет
-    Возвращает - <div class='cr-clear'></div>
-    Рекомендется вставлять после использования колонок, для сброса обтекания
-    Использование
-    Параметры:
-
+* Очистка
+```
+[cr_clear]
+Параметров не имеет
+Возвращает - <div class='cr-clear'></div>
+Рекомендется вставлять после использования колонок, для сброса обтекания
+```
+* Использование
+* 
+```
     [cr_column position=first][cr_ul][cr_li icon=http://www.wp-panda.panda/wp-content/uploads/2014/04/lightbulb.png]Пункт Астаны[/cr_li][cr_li icon= http://www.wp-panda.panda/wp-content/uploads/2014/04/lightbulb.png]Пункт Астаны[/cr_li][/cr_ul][/cr_column]
     [cr_column position=first][cr_ul][cr_li icon=http://www.wp-panda.panda/wp-content/uploads/2014/04/lightbulb.png]Пункт Астаны[/cr_li][cr_li icon= http://www.wp-panda.panda/wp-content/uploads/2014/04/lightbulb.png]Пункт Астаны[/cr_li][/cr_ul][/cr_column]
     [cr_column position=last][cr_ul][cr_li icon=http://www.wp-panda.panda/wp-content/uploads/2014/04/lightbulb.png]Пункт Астаны[/cr_li][cr_li icon= http://www.wp-panda.panda/wp-content/uploads/2014/04/lightbulb.png]Пункт Астаны[/cr_li][/cr_ul][/cr_column]
     [cr_clear]
-    Результат:
-
-2. Шорткод селекта региона
-
-    [cr_region_select]
-    Параметров не имеет
-    Возвращает селект выбора региона, наполнение селекта происходит автоматически.
-
-3. Шорткод вывода меню
-
-    [cr_region_menu]
-    Параметров не имеет
-    Возвращает Меню Регионов, По умолчанию выводит меню первого региона из селекта, дальше выбранный.
-
-4. Шорткод вывода ,баннера
+```
+####Шорткод селекта региона
+```
+[cr_region_select]
+Параметров не имеет
+Возвращает селект выбора региона, наполнение селекта происходит автоматически.
+```
+#### Шорткод вывода меню
+```
+[cr_region_menu]
+Параметров не имеет
+Возвращает Меню Регионов, По умолчанию выводит меню первого региона из селекта, дальше выбранный.
+```
+#### Шорткод вывода баннера
 
     [cr_region_menu tag={} w={} h={} crop={} class={}]
     Возвращает Баннер Регионов определенный меткой, По умолчанию выводит меню первого региона из селекта, дальше выбранный.
