@@ -3,24 +3,27 @@ ___________
 
 #### Шорткоды для создания меню
 
-*Установка маркированного списка
-
-` [cr_ul][/cr_ul]
+* Установка маркированного списка
+ 
+``` [cr_ul][/cr_ul]
 Параметров не имеет
 Возвращает - <ul></ul>
 Элемент Списка
 [cr_li icon={}][/cr_li]
 Параметры:
     Icon - url иконки
-Возвращает - <li class='cr-menu-li'><span class='cr-menu-span'><img src="{url иконки}"></span></li>`
+Возвращает - <li class='cr-menu-li'><span class='cr-menu-span'><img src="{url иконки}"></span></li>
+```
     
-*Колонки
+* Колонки
 
-` [cr_column width={} position={}][/cr_column]
+```
+[cr_column width={} position={}][/cr_column]
 Параметры:
     width - ширина колонки (по умолчанию 30%)
     position - добавляет классы для первой и последней колонки first - первая, last - последняя
-Возвращает - <div class='cr-columns {position}' style='width:{width}' ></div>`
+Возвращает - <div class='cr-columns {position}' style='width:{width}' ></div>
+```
 
     Очистка
 
